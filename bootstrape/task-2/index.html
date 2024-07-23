@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/all.min.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/fonts/font-awesome/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styel.css">
+    <link rel="stylesheet" href="assets/css/varibal.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light nav">
+        <div class="container-fluid">
+            <a class="navbar-brand " href="/index.html">
+                <h1 style="margin-left: 100px; ">Zen Blog</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav " style="margin:auto; font-size: 15px; font-weight: bold;">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="single-post.html">Singal Post</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+            <div class="icone" style="display: flex; gap: 20px; margin-right: 100px;">
+                <i class="fa-brands fa-facebook fa-lg" style="color: #000000;"></i>
+                <i class="fa-brands fa-twitter fa-lg" style="color: #000000;"></i>
+                <i class="fa-brands fa-instagram fa-lg" style="color: #000000;"></i>
+                <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #000000;"></i>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top: 40px;">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner pg-1">
+                <div class="carousel-item active">
+                    <img src="assets/img/post-slide-1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>The Best Homemade Masks for Face (keep the Pimples Away)</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem neque est mollitia! Beatae minima assumenda repellat harum vero, officiis ipsam magnam obcaecati cumque maxime inventore repudiandae quidem necessitatibus rem atque.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/post-slide-2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>17 Pictures of Medium Length Hair in Layers That Will Inspire Your New Haircut</h2>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/post-slide-3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>13 Amazing Poems from Shel Silverstein with Valuable Life Lessons</h2>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="assets/img/post-slide-4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>9 Half-up/half-down Hairstyles for Long and Medium Hair</h2>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+
+        </div>
+
+    </div>
+
+    <div class="middel-1">
+        <div class="container">
+            <div class="row gap-">
+                <div class="col-lg-4 pg-4">
+                    <a href="">
+                        <img src="assets/img/post-landscape-1.jpg" alt class="pg-3">
+                    </a>
+
+                    <h5>culture. 5 jul</h5>
+                    <h2><a href="">11 Work From Home Part-Time Jobs You Can Do Now</a></h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero temporibus repudiandae, inventore pariatur numquam cumque possimus exercitationem? Nihil tempore odit ab minus eveniet praesentium, similique blanditiis molestiae ut saepe
+                        perspiciatis officia nemo, eos quae cumque. Accusamus fugiat architecto rerum animi atque eveniet, quo, praesentium dignissimos</p>
+
+                    <div class="pg-03 d-flex">
+                        <img src="assets/img/person-1.jpg" alt="">
+                        <p><a href="">Camron Williomson </a></p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 pg-4">
+                    <a href="">
+                        <img src="assets/img/post-landscape-2.jpg" alt class="pg-3">
+                    </a>
+
+                    <h5>culture. 5 jul</h5>
+                    <h2>Let’s Get Back to Work, New Yor</h2>
+
+                    <img src="assets/img/post-landscape-5.jpg" alt class="pg-03">
+                    <h5>Food. 5 jul</h5>
+                    <h2>How to Avoid Distraction and Stay Focused During Video Calls?</h2>
+
+
+                    <img src="assets/img/post-landscape-7.jpg" alt class="pg-03">
+                    <h5>DISIGN. 5 jul</h5>
+                    <h2>Why Craigslist Tampa Is One of The Most <br>Interesting Places On the Web?</h2>
+                </div>
+
+                <div class="col-lg-3 pg-4">
+                    <a href="">
+                        <img src="assets/img/post-landscape-3.jpg" alt class="pg-3">
+                    </a>
+                    <h5>BUSSINES. 5 jul</h5>
+                    <H2>6 Easy Steps To Create Your Own Cute Merch For Instagram</H2>
+
+                    <img src="assets/img/post-landscape-6.jpg" alt class="pg-3">
+                    <h5>TECH. 5 jul</h5>
+                    <h2>10 Life-Changing Hacks Every Working Mom <br> Should Know</h2>
+
+
+                    <img src="assets/img/post-landscape-6.jpg" alt class="pg-3" style="margin-top: 30px;">
+                    <h5>Travel. 5 jul</h5>
+                    <h2>5 Great Startup Tips for Female Founders</h2>
+
+                </div>
+                <div class="col-lg-2 pg-5 " style="padding: 0px;">
+
+                    <h2>Trending</h2>
+
+                    <div class="box-1">
+                        <span class="number">1</span>
+                        <h3> The Best Homemade Masks for Face (keep the Pimples Away)</h3>
+                        <span class="author">Jane Cooper</span>
+                    </div>
+
+                    <div class="box-1">
+                        <span class="number">2</span>
+                        <h3> 17 Pictures of Medium Length Hair in Layers That Will Inspire Your New Haircut</h3>
+                        <span class="author">Jane Cooper</span>
+                    </div>
+
+                    <div class="box-1">
+                        <span class="number">3</span>
+                        <h3> 13 Amazing Poems from Shel Silverstein with Valuable Life Lessons</h3>
+                        <span class="author">Jane Cooper</span>
+                    </div>
+
+                    <div class="box-1">
+                        <span class="number">4</span>
+                        <h3> 9 Half-up/half-down Hairstyles for Long and Medium Hair</h3>
+                        <span class="author">Jane Cooper</span>
+                    </div>
+
+                    <div class="box-1">
+                        <span class="number">5</span>
+                        <h3> Life Insurance And Pregnancy: A Working Mom’s Guide</h3>
+                        <span class="author">Jane Cooper</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- culture section -->
+
+    <div class="culturesection">
+        <div class="container">
+            <div class="culture-heder">
+                <h2>Culture</h2>
+                <div class="left-header">
+                    <h3>SEE ALL CALCULATER</h3>
+                </div>
+            </div>
+
+            <div class="culture-start">
+                <div class="row">
+                    <div class="col-lg-9 ">
+
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <div class="mk">
+                                    <a href="#">
+                                        <img src="assets/img/post-landscape-6.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+
+                                <div class="post-meta">
+                                    <span class="date">Culture</span>
+                                    <span class="mx-1">.</span>
+                                    <span>jul 5th '22</span>
+                                </div>
+
+                                <h3 id="mx-2"><a href="#">What is the son of Football Coach John Gruden, Deuce Gruden doing Now?</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error deserunt aliquam temporibus sapiente, laudantium dolorum itaque
+                                    libero eos deleniti?</p>
+
+                                <div class="authore">
+                                    <div class="photo"><img src="assets/img/person-2.jpg" alt=""></div>
+                                    <div class="name">
+                                        <h3>Wade Warren</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="space">
+
+                                <div class="col-lg-4">
+                                    <div class="dog">
+                                        <img src="assets/img/post-landscape-1.jpg" alt="">
+                                        <div class="post-meta1">
+                                            <span class="date">Culture</span>
+                                            <span class="mx-1">.</span>
+                                            <span>jul 5th '22</span>
+
+                                            <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                            </h2>
+                                            <p style="color: #000000; font-weight: 500;">Jenny Wilson</p>
+
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, distinctio? Nemo corrupti odio vitae quisquam quia tempora nobis voluptate soluta?</p>
+                                            <hr>
+                                        </div>
+                                        <div class="post-meta1">
+                                            <span class="date">Culture</span>
+                                            <span class="mx-1">.</span>
+                                            <span>jul 5th '22</span>
+
+                                            <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                            </h2>
+                                            <p style="color: #000000; font-weight: 500;">Jenny Wilson</p>
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="cacke">
+                                        <img src="assets/img/post-landscape-2.jpg" alt="">
+                                        <div class="post-meta2">
+                                            <span class="date">Culture</span>
+                                            <span class="mx-1">.</span>
+                                            <span>jul 5th '22</span>
+                                            <h2 id="mx-4">How to Avoid Distraction and Stay Focused During Video Calls?</h2>
+                                            <p style="color: #000000; font-weight: 500;">Jenny Wilson</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum debitis blanditiis hic pariatur repellat soluta.</p>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color: #000000; font-weight: 400;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color: #000000; font-weight: 400;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color: #000000; font-weight: 400;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color: #000000; font-weight: 400;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color: #000000; font-weight: 400;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color: #000000; font-weight: 400; padding: 10px 10px;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+    <!-- bussines -->
+    <div class="bussines">
+
+        <div class="container">
+            <div class="culture-heder">
+                <h2>Business</h2>
+                <div class="left-header">
+                    <h3>SEE ALL BUSINESS</h3>
+                </div>
+            </div>
+            <div class="business-fut" style="margin-top: 50px;">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color:#5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color:#5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction and Stay Focused During Video Calls?
+                            </h2>
+                            <p style="color:#5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction During Video Calls?
+                            </h2>
+                            <p style="color:#5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Focused During Video Calls?
+                            </h2>
+                            <p style="color:#5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">How to Avoid Distraction Calls?
+                            </h2>
+                            <p style="color:#5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-9">
+                        <div class="row">
+                            <div class="col-lg-8">
+
+                                <div class="business-img">
+                                    <img src="assets/img/post-landscape-3.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+
+                                <div class="post-meta">
+                                    <span class="date">Culture</span>
+                                    <span class="mx-1">.</span>
+                                    <span>jul 5th '22</span>
+                                </div>
+
+                                <h3 id="mx-2"><a href="#">What is the son of Football Coach John Gruden, Deuce Gruden doing Now?</a>
+                                </h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio placeat exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error deserunt aliquam temporibus sapiente, laudantium dolorum itaque
+                                    libero eos deleniti?</p>
+
+                                <div class="authore">
+                                    <div class="photo"><img src="assets/img/person-4.jpg" alt=""></div>
+                                    <div class="name">
+                                        <h3>Wade Warren</h3>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <div class="col-lg-4">
+                                <div class="lendscep-5">
+                                    <img src="assets/img/post-landscape-5.jpg" alt="">
+
+
+                                    <div class="post-meta1">
+                                        <span class="date">Culture</span>
+                                        <span class="mx-1">.</span>
+                                        <span>jul 5th '22</span>
+
+                                        <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                        </h2>
+                                        <p style="color: #5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+
+                                        <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, distinctio? Nemo corrupti odio vitae quisquam quia tempora nobis voluptate soluta?</p>
+                                        <hr>
+                                    </div>
+                                    <div class="post-meta1">
+                                        <span class="date">Culture</span>
+                                        <span class="mx-1">.</span>
+                                        <span>jul 5th '22</span>
+
+                                        <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                        </h2>
+                                        <p style="color:#5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+
+
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8">
+                                <div class="lendscep-7">
+                                    <img src="assets/img/post-landscape-7.jpg" alt="">
+
+                                    <div class="post-meta2">
+                                        <span class="date">Culture</span>
+                                        <span class="mx-1">.</span>
+                                        <span>jul 5th '22</span>
+                                        <h2 id="mx-4">How to Avoid Distraction and Stay Focused During Video Calls?</h2>
+                                        <p style="color:#5e5c5c; font-weight: 400; font-size: 15px;">Jenny Wilson</p>
+                                        <p style="font-size: 15px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum debitis blanditiis hic pariatur repellat soluta.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!-- lifestyle -->
+    <div class="lifestyle">
+        <div class="container">
+            <div class="culture-heder">
+                <h2>Lifestyle</h2>
+                <div class="left-header">
+                    <h3>SEE ALL LIFESTYLE</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="life">
+
+                        <img src="assets/img/post-landscape-8.jpg" alt="">
+
+                        <div class="post-meta1">
+
+
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+                        </div>
+
+                        <h2>11 Work From Home Part-Time Jobs You Can Do Now</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, ullam? Libero quia id repellat voluptatibus impedit aliquid laborum fugit assumenda dicta aut incidunt laudantium possimus, consequatur labore repudiandae officia
+                            doloremque, consectetur tenetur saepe magnam adipisci!</p>
+
+
+                        <div class="authore1">
+                            <div class="photo1"><img src="assets/img/person-7.jpg" alt="">
+                            </div>
+                            <div class="name1">
+
+                                <h3>Wade Warren</h3>
+
+                            </div>
+                        </div>
+                        <div class="post-meta11">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                            </h2>
+                            <p style="color: #000000; font-weight: 400; font-size: 14px;">Jenny Wilson</p>
+                            <hr>
+                        </div>
+
+                        <div class="post-meta11">
+                            <span class="date">Culture</span>
+                            <span class="mx-1">.</span>
+                            <span>jul 5th '22</span>
+
+                            <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                            </h2>
+                            <p style="color: #000000; font-weight: 400; font-size: 14px;">Jenny Wilson</p>
+                            <hr>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 munaf">
+                    <div class="row">
+                        <div class="uncal">
+                            <img src="assets/img/post-landscape-6.jpg" alt="">
+
+                            <div class="post-metaxx">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+
+                            </div>
+                        </div>
+
+                        <div class="uncal">
+                            <img src="assets/img/post-landscape-5.jpg" alt="">
+
+                            <div class="post-metaxx">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+
+                            </div>
+                        </div>
+
+                        <div class="uncal">
+                            <img src="assets/img/post-landscape-4.jpg" alt="">
+
+                            <div class="post-metaxx">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-3 munaf">
+                    <div class="row">
+                        <div class="uncal">
+                            <img src="assets/img/post-landscape-3.jpg" alt="">
+
+                            <div class="post-metaxx">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+
+                            </div>
+                        </div>
+
+                        <div class="uncal">
+                            <img src="assets/img/post-landscape-2.jpg" alt="">
+
+                            <div class="post-metaxx">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+
+                            </div>
+                        </div>
+
+                        <div class="uncal">
+                            <img src="assets/img/post-landscape-1.jpg" alt="">
+
+                            <div class="post-metaxx">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-2 munaf">
+                    <div class="row">
+                        <div class="uncal1">
+
+
+                            <div class="post-metax">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+                                <p style="color: #000000; font-weight: 400; font-size: 14px;">Jenny Wilson</p>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="uncal1">
+
+
+                            <div class="post-metax">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+                                <p style="color: #000000; font-weight: 400; font-size: 14px;">Jenny Wilson</p>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="uncal1">
+
+
+                            <div class="post-metax">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+                                <p style="color: #000000; font-weight: 400; font-size: 14px;">Jenny Wilson</p>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="uncal1">
+
+
+                            <div class="post-metax">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+                                <p style="color: #000000; font-weight: 400; font-size: 14px;">Jenny Wilson</p>
+                                <hr>
+
+                            </div>
+                        </div>
+
+                        <div class="uncal1">
+
+
+                            <div class="post-metax">
+                                <span class="date">Culture</span>
+                                <span class="mx-1">.</span>
+                                <span>jul 5th '22</span>
+
+                                <h2 id="mx-3">11 Work From Home Part-Time Jobs You Can Do Now
+                                </h2>
+                                <p style="color: #000000; font-weight: 400; font-size: 14px;">Jenny Wilson</p>
+                                <hr>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer-contain">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 fot-title1">
+                    <h3>About zenblog</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A minus officia porro sunt quis tempora! Ipsam cumque corporis minus sit tempore ipsum neque perspiciatis, ex iusto saepe soluta est eveniet.</p>
+
+                    <p><a href="#">Learn More</a></p>
+                </div>
+                <div class="col-lg-2 fot-title1">
+                    <div class="row">
+                        <h3>Navigation</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><span style="text-decoration: none;"><a href="#">Home</a></span></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Blog</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Categoris</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Singal post</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">About us</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 fot-title1">
+
+                    <div class="row">
+                        <h3>Categories</h3>
+                        <ul>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><span><a
+                    href="#">Business</a></span></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Culture</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Sport</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Food</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Politics</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Celibrity</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Startups</a></li>
+                            <li><i class="fa-solid fa-chevron-right me-3" style="color: rgba(228, 224, 224, 0.74);"></i><a href="#">Travel</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 fot-title1">
+                    <div class="row">
+                        <h3>Recent post</h3>
+                        <div class="foot1">
+                            <div class="fot-img">
+                                <img src="assets/img/post-sq-1.jpg" alt="">
+                            </div>
+                            <div class="fot-nem">
+
+                                <div class="post-metax">
+                                    <span class="date">Culture</span>
+                                    <span class="mx-1">.</span>
+                                    <span>jul 5th '22</span>
+                                    <br>
+                                    <span id="mx-4">11 Work From Home Part-Time Jobs You Can Do Now
+                  </span>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="foot1">
+                            <div class="fot-img">
+                                <img src="assets/img/post-sq-2.jpg" alt="">
+                            </div>
+                            <div class="fot-nem">
+
+                                <div class="post-metax">
+                                    <span class="date">Culture</span>
+                                    <span class="mx-1">.</span>
+                                    <span>jul 5th '22</span>
+                                    <br>
+                                    <span id="mx-4">What is the son of Football Coach John Gruden, Deuce Gruden doing Now?
+                  </span>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="foot1">
+                            <div class="fot-img">
+                                <img src="assets/img/post-sq-3.jpg" alt="">
+                            </div>
+                            <div class="fot-nem">
+
+                                <div class="post-metax">
+                                    <span class="date">Culture</span>
+                                    <span class="mx-1">.</span>
+                                    <span>jul 5th '22</span>
+                                    <br>
+                                    <span id="mx-4">Life Insurance And Pregnancy: A Working Mom’s Guide
+                  </span>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="foot1">
+                            <div class="fot-img">
+                                <img src="assets/img/post-sq-4.jpg" alt="">
+                            </div>
+                            <div class="fot-nem">
+
+                                <div class="post-metax">
+                                    <span class="date">Culture</span>
+                                    <span class="mx-1">.</span>
+                                    <span>jul 5th '22</span>
+                                    <br>
+                                    <span id="mx-4">How to Avoid Distraction and Stay Focused During Video Calls?
+                  </span>
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+    <div class="footer-legal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <span id="last">
+            © Copyright Zenblog. All rights Resverd</span><br>
+                    <span id="last">Dsignedby</span> <span id="ll">bootstrapMad</span>
+                </div>
+
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2"></div>
+
+                <div class="col-lg-2">
+                    <div class="row">
+                        <div class="icone">
+                            <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                            <i class="fa-solid fa-s fa-xl" style="color: #ffffff;"></i>
+                            <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <script src="assets/vendor/swipper/swiper-bundle.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

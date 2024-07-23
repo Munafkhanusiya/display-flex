@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.f1{
+    height: 50px;
+    width: 100%;
+    background-color: yellowgreen;
+    opacity: 0.2;
+}
+
+.f2{
+    height: 50px;
+    width: 100%;
+    background-color: yellowgreen;
+    opacity: 0.4;
+}
+
+.f3{
+    height: 50px;
+    width: 100%;
+    background-color: yellowgreen;
+    opacity: 0.6;
+}
+
+.f4{
+    height: 50px;
+    width: 100%;
+    background-color: yellowgreen;
+    opacity: 0.8;
+}
+
+.f5{
+    height: 50px;
+    width: 100%;
+    background-color: yellowgreen;
+    opacity: 1;
+}
+
+.f6 img{
+    height: 250px;
+    width: 250px;
+    opacity: 1;
+}
+
+.f7 img{
+    height: 250px;
+    width: 250px;
+    opacity: 0.5;
+}
+
+.f8{
+    height: 250px;
+    width: 250px;
+    background-color: palevioletred;
+    opacity: 1;
+}
+
+.f9{
+    height: 250px;
+    width: 250px;
+    background-color: palevioletred;
+    opacity: 0.6;
+}
+
+.f10{
+    height: 250px;
+    width: 250px;
+    background-color: palevioletred;
+    opacity: 0.3;
+}

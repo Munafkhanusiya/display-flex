@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.f1 {
+    text-align: center;
+}
+
+.f2 {
+    text-align: left;
+}
+
+.f3 {
+    text-align: right;
+}
+
+.f4 {
+    text-align: justify;
+}
+
+.f5{
+    text-align: justify;
+}

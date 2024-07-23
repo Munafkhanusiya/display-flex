@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family:"Poppins-Regular" ;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+.main{
+    margin: 15px 147px;
+}
+.box1{
+  display: flex;
+  gap: 30px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box-1{
+    height: 100px;
+    width: 500px;
+    background-color: whitesmoke;
+    display: flex;
+    
+}
+.left{
+    padding: 15px 20px;
+}
+
+.right{
+    padding: 15px 20px;
+}
+
+.right h3{
+    font-family: "Poppins-Regular";
+}
+.right p{
+ font-family: "Poppins-Regular";  
+ font-size: 12px; 
+ margin-top: 6px;
+}

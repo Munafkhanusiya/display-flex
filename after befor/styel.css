@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    font-size: 16px;
+    color: #5a5a5a98;
+}
+
+.hedar {
+    text-align: center;
+}
+
+.hedar h1 {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    color: #5a5a5a;
+}
+
+.hedar p {
+    margin-top: 10px;
+    color: #5a5a5a;
+}
+
+.hedar h1::after {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 2px;
+    background-color: #ffcc00;
+    position: absolute;
+    bottom: 14px;
+    left: 43%;
+    transform: translateX(-50%);
+}
+
+.hedar::before {
+    content: '';
+    display: block;
+    width: 55px;
+    height: 2px;
+    background-color: #ffcc00;
+    position: absolute;
+    left: 57%;
+    transform: translateX(-50%);
+    top: 70px;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 380px;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.box-1 img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    color: #a8a6a6;
+}
+
+.contain a {
+    text-decoration: none;
+    color: #5a5a5a98;
+    font-weight: bold;
+}
+
+.contain h3 {
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    color: #999797;
+}
+
+.contain h3::after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 3px;
+    background-color: #86858549;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.task-2 {
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.task-2 h2 {
+    position: relative;
+}
+
+.task-2 h2::after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 55px;
+    background-color: red;
+}
+
+.task-2 p {
+    font-size: 18px;
+    color: #5a5a5a98;
+}

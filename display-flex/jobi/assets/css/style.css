@@ -1,0 +1,436 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: white;
+  --black: black;
+  --gray: gray;
+  --yellow: #d2f34b;
+  --navBody: #244034;
+  --btnBorder: #244034;
+  --simplePlan2: #f0f6f4;
+  --textColor: #828282;
+  --textColor2: #317a5b;
+}
+
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url(../fonts/Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Medium";
+  src: url(../fonts/Poppins/Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: "Poppins-Italic";
+  src: url(../fonts/Poppins/Poppins-Italic.ttf);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--navBody);
+  height: 100px;
+  padding: 40px;
+}
+
+.navRight {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 50px;
+  align-items: center;
+}
+
+.logoName h1 {
+  color: var(--white);
+}
+.imgLogo {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.logoImg {
+  width: 40px;
+  height: 27px;
+}
+.category {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  height: 30px;
+  background-color: #80808073;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  color: var(--yellow);
+  font-family: "Poppins-Italic";
+}
+.menus ul {
+  display: flex;
+  gap: 20px;
+  color: var(--textColor);
+  list-style-type: none;
+  font-family: "Poppins-Italic";
+}
+
+.navLeft {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+#loginBtn {
+  font-family: "Poppins-Italic";
+  background-color: var(--navBody);
+  border: none;
+  color: var(--textColor);
+  font-size: 15px;
+}
+
+#HireTopTaletsBtn {
+  height: 34px;
+  width: 140px;
+  border: none;
+  background-color: var(--yellow);
+  font-family: "Poppins-Italic";
+  border-radius: 25px;
+}
+
+.line {
+  border-right: 1px solid var(--gray);
+  height: 15px;
+}
+
+.navLeft p {
+  color: var(--textColor);
+  font-family: "Poppins-Italic";
+}
+
+.pricing {
+  background-color: var(--navBody);
+  height: 280px;
+}
+
+.pricingText {
+  color: var(--white);
+  text-align: center;
+  font-size: 65px;
+  padding-top: 50px;
+}
+.membershipText {
+  color: var(--white);
+  text-align: center;
+  font-size: 15px;
+  padding-top: 15px;
+  font-family: "Poppins-Regular";
+}
+.SimplePlanText {
+  text-align: center;
+  font-size: 50px;
+  padding-top: 70px;
+}
+.SimplePlanBox {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.PlanBox {
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.planName p {
+  font-size: 17px;
+  color: var(--gray);
+}
+
+.planPrice p {
+  color: var(--textColor2);
+  font-size: 55px;
+}
+
+.planFeatures {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  color: var(--textColor2);
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+}
+
+#choosePlan {
+  width: 225px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--textColor2);
+  color: var(--white);
+  margin-top: 25px;
+  font-family: "Poppins-Medium";
+}
+
+.PlanBox2 {
+  width: 300px;
+  border: 2px solid var(--yellow);
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background-color: #f6fcdf;
+}
+
+.planName2 p {
+  font-size: 17px;
+  color: var(--gray);
+}
+
+.planPrice2 p {
+  color: var(--textColor2);
+  font-size: 55px;
+}
+
+.planFeatures2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  color: var(--textColor2);
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Poppins-Regular";
+}
+
+#choosePlan2 {
+  width: 225px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--yellow);
+  color: var(--textColor2);
+  margin-top: 25px;
+  font-family: "Poppins-Medium";
+}
+
+.planLastText {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: "Poppins-Regular";
+  color: var(--gray);
+}
+
+.plan {
+  background-color: var(--simplePlan2);
+  padding: 35px;
+}
+
+.plan-Box2 {
+  width: 300px;
+  background-color: var(--white);
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.plan-Box3 {
+  width: 300px;
+  border: 2px solid var(--textColor2);
+  background-color: var(--white);
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+#choose-Plan2 {
+  width: 225px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  background-color: var(--yellow);
+  color: var(--textColor2);
+  margin-top: 25px;
+  font-family: "Poppins-Medium";
+}
+
+.footer {
+  padding: 50px 100px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.left-title1 {
+  font-size: 42px;
+  font-weight: 300;
+}
+.left-title2 {
+  font-family: "Poppins-Regular";
+  margin-top: 10px;
+  color: var(--gray);
+}
+
+.right-btn {
+  display: flex;
+  gap: 20px;
+}
+
+#lookingForJob-Btn {
+  width: 145px;
+  height: 45px;
+  border: 2px solid black;
+  background-color: var(--white);
+  border-radius: 5px;
+  font-family: "Poppins-Regular";
+  font-weight: 600;
+}
+#postAJobBtn {
+  width: 120px;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Poppins-Regular";
+  background-color: var(--yellow);
+  font-weight: 600;
+}
+
+.footer-bottom {
+  padding-top: 60px;
+  border-top: 1px solid #ebe6e6;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-name h1 {
+  color: var(--black);
+}
+
+.footer-product-list p {
+  font-family: "Poppins-Regular";
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-product-list ul {
+  font-family: "Poppins-Regular";
+  font-size: 13px;
+  color: var(--gray);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.footer-links p {
+  font-family: "Poppins-Regular";
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.footer-links ul {
+  font-family: "Poppins-Regular";
+  font-size: 13px;
+  color: var(--gray);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.footer-legal p {
+  font-family: "Poppins-Regular";
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.footer-legal ul {
+  font-family: "Poppins-Regular";
+  font-size: 13px;
+  color: var(--gray);
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.news-letter-title {
+  font-family: "Poppins-Regular";
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  
+}
+input[type="email"]{
+  height: 50px;
+  width: 300px;
+  border: none;
+  background-color: rgb(243, 239, 239);
+  font-family: "Poppins-Regular";
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.xx{
+  font-family: "Poppins-Regular";
+   margin-bottom: 15px;
+}
+.xy{
+  color: #244034a2;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+.footer-last{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.abc{
+  font-family: "Poppins-Medium";
+  font-size: 15px;
+  display: flex;
+  gap: 15px;
+}
+
+.xyz{
+  color: #828282;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+}
+
+.mno{
+  display: flex;
+  gap: 10px;
+}

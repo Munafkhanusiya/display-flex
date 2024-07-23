@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: red;
+}
+#demo{
+    color: yellow;
+}
+/* .demo{
+    color: pink;
+} */
+
+h1,#demo,.demo{
+    background-color: blue;
+}
+
+.opactiy {
+    background-color: red;
+    width: 50%;
+    border-radius: 50px 5px 30px;
+}
+h5{
+    color: black;
+    opacity: 2;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}

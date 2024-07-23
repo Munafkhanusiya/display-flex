@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+font-family: "Poppins-Regular";
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url(fonts/Poppins/Poppins-Medium.ttf);
+  }
+
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url(fonts/Poppins/Poppins-Bold.ttf);
+  }
+
+  :root{
+    --red:#e61212;
+    --blue:#a38ad1;
+  }
+
+.main{
+    padding: 20px;
+    
+}
+
+
+.menu{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+   align-items: center;
+   
+}
+
+.left h1{
+   font-family: "Poppins-Bold" !important;
+    font-weight: 600;
+   color: var(--blue);
+    font-size: 35px;
+   
+}
+
+.right ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #313137;
+}
+
+.container{
+   margin-top: 50px;
+   /* display: flex; */
+   width: 980px;
+   margin: auto;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+.top-box{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
+.bootom-box{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color:#FFFFF0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 20px;
+}
+.box1 img{
+    margin-bottom: 20px;
+}
+
+.small{
+   font-size: 13px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-left: 15px;
+   color: #7f7f85;
+   background-color: rgba(30, 255, 0, 0.116);
+   width: 75px;
+   /* height: 20px; */
+   /* border-radius: 8px; */
+   justify-content: center;
+}
+
+.box1 h2{
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+ 
+}
+.ek{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box1 h3{
+    font-weight: 600;
+    font-size: 13px;
+    
+    color: #3131375e;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.left-1 p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+#ff{
+    height: 25px;
+    width: 75px;
+    background-color: #164773;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}

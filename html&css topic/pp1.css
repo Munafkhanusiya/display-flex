@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.f1 {
+    height: 250px;
+    width: 250px;
+    background-color: greenyellow;
+    border-radius: 50%;
+}

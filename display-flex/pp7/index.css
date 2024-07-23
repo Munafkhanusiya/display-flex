@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url(Poppins/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family:"Poppins-Medium" ;
+    src: url(Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url(Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family:"Poppins-SemiBold" ;
+    src: url(Poppins/Poppins-SemiBold.ttf);
+}
+
+:root{
+   --menu-p:rgb(46, 44, 44);
+   --round-1:red;
+   --round-2:rgb(0, 132, 255);
+   --round-3: rgb(204, 72, 204);
+   --round-4:blue;
+   --round-5:rgb(113, 211, 113);
+   --round-6:gold;
+}
+
+.menu{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.menu h1{
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.menu p{
+    font-size: 17px;
+    margin-top: 10px;
+    color: var(--menu-p);
+    font-family: ;
+}
+
+.contain{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.box{
+    height: 300px;
+    width: 300px;
+   flex-direction: column;
+   align-items: center;
+   padding: 20px;
+   display: flex;
+    
+}
+.round1{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--round-1);
+    display: flex;
+    
+   
+}
+
+.footer{
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.footer p{
+    padding-top: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: rgb(133, 127, 127);
+}
+
+.footer h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.round2{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color:var(--round-2);
+   
+}
+
+.round3{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: var(--round-3);
+   
+}
+.round4{
+    height: 80px;
+    width: 80px;
+    background-color:var(--round-4);
+   
+}
+.round5{
+    height: 80px;
+    width: 80px;
+    background-color:var(--round-5);
+   
+}
+.round6{
+    height: 80px;
+    width: 80px;
+    background-color:var(--round-6);
+   
+}

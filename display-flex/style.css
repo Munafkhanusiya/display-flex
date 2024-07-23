@@ -1,0 +1,412 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.contain{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 350px;
+}
+
+.contain1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.main-box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: pink;
+    height: 100px;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.box1 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box2 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box3 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.box3 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.box4 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+
+.main-box1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: pink;
+    height: 100px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.box5 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box6 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box7 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.box8 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+/* .box9 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+} */
+
+.main-box2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: pink;
+    height: 100px;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.box9 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box10 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box11 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.box12 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+
+.main-box3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: pink;
+    height: 100px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box13 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box14 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box15 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.box16 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.main-box4 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: pink;
+    height: 100px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.box17 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box18 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box19 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.box20 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+
+.main-box5 {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: space-between; */
+    /* align-items: end; */
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+}
+
+.mymain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.f1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.f2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box21 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box22 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+}
+
+.box23 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+.box24 {
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+
+}
+
+.main-box6{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box25{
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;  
+}
+
+
+.main-box7{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    padding: 15px;
+}
+.box26{
+    width: 100px;
+    height: 50px;
+    background-color: whitesmoke;
+    
+}
+
+.main-box8{
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    display: flex;
+    padding: 15px;
+    gap: 15px;
+    
+}
+.mymain1{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    gap: 10px;
+
+}
+.box27{
+    width: 90px;
+    height: 90px;
+    background-color: whitesmoke;
+    
+}
+.box28{
+    width: 120px;
+    height: 20px;
+    background-color: whitesmoke;
+    
+}
+.box29{
+    width: 90px;
+    height: 20px;
+    background-color: whitesmoke;
+}
+
+.demo11{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47px;
+    width: 350px;
+    flex-direction: column;
+    /* margin-top:20px ; */
+}
+
+.contain2{
+    height: 650px;
+    width: 400px;
+    margin-left: 150px;
+    background-color:pink;
+   
+}
+
+.demo3{
+   display: flex;
+}        
+
+.box30{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+
+.box31{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+
+.box32{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box33{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box34{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box35{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box36{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box37{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box38{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box39{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box40{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.box41{
+    width: 130px;
+    height: 50px;
+    background-color: rgb(5, 5, 5);
+}
+.demo4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 45px;
+}
